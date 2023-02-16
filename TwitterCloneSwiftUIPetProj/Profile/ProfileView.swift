@@ -18,7 +18,7 @@ struct ProfileView: View {
             actionButtons
             userInfo
             tweetFilterBar
-            Spacer()
+            tweetsList
         }
     }
 }
@@ -159,6 +159,16 @@ extension ProfileView {
             }
         }
         .overlay(Divider().offset(x: 0, y: 15))
+    }
+    
+    var tweetsList: some View {
+        ScrollView {
+            LazyVStack {
+                ForEach(0..<8) { _ in
+                    TweetRowView()
+                }
+            }
+        }
     }
 }
 
