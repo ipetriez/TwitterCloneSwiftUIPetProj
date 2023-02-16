@@ -16,6 +16,8 @@
 		70A2A698299D34190009D6B1 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A2A697299D34190009D6B1 /* ExploreView.swift */; };
 		70A2A69A299D34300009D6B1 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A2A699299D34300009D6B1 /* NotificationsView.swift */; };
 		70A2A69C299D34400009D6B1 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A2A69B299D34400009D6B1 /* MessagesView.swift */; };
+		70E081D9299E98220011E527 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E081D8299E98220011E527 /* ProfileView.swift */; };
+		70E081DB299EAA2E0011E527 /* TweetFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E081DA299EAA2E0011E527 /* TweetFilterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		70A2A697299D34190009D6B1 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		70A2A699299D34300009D6B1 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		70A2A69B299D34400009D6B1 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		70E081D8299E98220011E527 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		70E081DA299EAA2E0011E527 /* TweetFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetFilterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,8 @@
 		70A2A696299D33EB0009D6B1 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				70E081D8299E98220011E527 /* ProfileView.swift */,
+				70E081DA299EAA2E0011E527 /* TweetFilterViewModel.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -216,11 +222,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70E081D9299E98220011E527 /* ProfileView.swift in Sources */,
 				70A2A690299D2BE70009D6B1 /* TweetRowView.swift in Sources */,
 				70A2A68A299D2A290009D6B1 /* FeedView.swift in Sources */,
 				70A2A67C299D29CD0009D6B1 /* TwitterCloneSwiftUIPetProjApp.swift in Sources */,
 				70A2A692299D31AB0009D6B1 /* MainTabView.swift in Sources */,
 				70A2A69C299D34400009D6B1 /* MessagesView.swift in Sources */,
+				70E081DB299EAA2E0011E527 /* TweetFilterViewModel.swift in Sources */,
 				70A2A698299D34190009D6B1 /* ExploreView.swift in Sources */,
 				70A2A69A299D34300009D6B1 /* NotificationsView.swift in Sources */,
 			);
