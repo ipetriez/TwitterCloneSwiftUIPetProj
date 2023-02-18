@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7003555729A121590013BB9E /* UserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7003555629A121590013BB9E /* UserRowView.swift */; };
 		70A2A67C299D29CD0009D6B1 /* TwitterCloneSwiftUIPetProjApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A2A67B299D29CD0009D6B1 /* TwitterCloneSwiftUIPetProjApp.swift */; };
 		70A2A680299D29D20009D6B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A2A67F299D29D20009D6B1 /* Assets.xcassets */; };
 		70A2A683299D29D20009D6B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A2A682299D29D20009D6B1 /* Preview Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7003555629A121590013BB9E /* UserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserRowView.swift; path = TwitterCloneSwiftUIPetProj/Explore/UserRowView.swift; sourceTree = SOURCE_ROOT; };
 		70A2A678299D29CD0009D6B1 /* TwitterCloneSwiftUIPetProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterCloneSwiftUIPetProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A2A67B299D29CD0009D6B1 /* TwitterCloneSwiftUIPetProjApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCloneSwiftUIPetProjApp.swift; sourceTree = "<group>"; };
 		70A2A67F299D29D20009D6B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7003555529A1213C0013BB9E /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				7003555629A121590013BB9E /* UserRowView.swift */,
+			);
+			name = SubViews;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		70A2A66F299D29CC0009D6B1 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				70A2A697299D34190009D6B1 /* ExploreView.swift */,
+				7003555529A1213C0013BB9E /* SubViews */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -228,6 +240,7 @@
 				70A2A67C299D29CD0009D6B1 /* TwitterCloneSwiftUIPetProjApp.swift in Sources */,
 				70A2A692299D31AB0009D6B1 /* MainTabView.swift in Sources */,
 				70A2A69C299D34400009D6B1 /* MessagesView.swift in Sources */,
+				7003555729A121590013BB9E /* UserRowView.swift in Sources */,
 				70E081DB299EAA2E0011E527 /* TweetFilterViewModel.swift in Sources */,
 				70A2A698299D34190009D6B1 /* ExploreView.swift in Sources */,
 				70A2A69A299D34300009D6B1 /* NotificationsView.swift in Sources */,
