@@ -11,7 +11,9 @@ import SwiftUI
 struct TwitterCloneSwiftUIPetProjApp: App {
     var body: some Scene {
         WindowGroup {
-            MainTabView()
+            NavigationStack {
+                MainContainerView()
+            }
         }
     }
 }
