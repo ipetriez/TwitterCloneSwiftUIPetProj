@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct UserRowView: View {
+struct UserItemView: View {
     var body: some View {
         HStack(spacing: 12) {
             Circle()
@@ -31,6 +31,6 @@ struct UserRowView: View {
 
 struct UserRowView_Previews: PreviewProvider {
     static var previews: some View {
-        UserRowView()
+        UserItemView()
     }
 }

@@ -17,7 +17,7 @@ struct ExploreView: View {
                             NavigationLink {
                                 ProfileView()
                             } label: {
-                                UserRowView()
+                                UserItemView()
                             }
 
                         }
