@@ -29,18 +29,19 @@ struct SideMenuView: View {
             .padding(.leading)
             
             ForEach(SideMenuViewModel.allCases) { menuItem in
-                HStack(spacing: 16) {
-                    Image(systemName: menuItem.imageName)
-                        .font(.headline)
-                        .foregroundColor(.gray)
-                    
-                    Text(menuItem.title)
-                        .font(.subheadline)
-                    
-                    Spacer()
+                if menuItem == .profile {
+                    NavigationLink(destination: ProfileView()) {
+                        SideMenuItemView(menuItem: menuItem)
+                    }
+                } else if menuItem == .logout {
+                    Button {
+                        print("Handle something here..")
+                    } label: {
+                        SideMenuItemView(menuItem: menuItem)
+                    }
+                } else {
+                    SideMenuItemView(menuItem: menuItem)
                 }
-                .frame(height: 40)
-                .padding(.horizontal)
             }
             Spacer()
         }

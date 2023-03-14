@@ -46,6 +46,9 @@ struct MainContainerView: View {
                 }
             }
         }
+        .onAppear {
+            showMenu = false
+        }
     }
 }
 
