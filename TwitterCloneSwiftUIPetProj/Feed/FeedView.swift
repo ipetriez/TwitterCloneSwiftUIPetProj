@@ -17,6 +17,7 @@ struct FeedView: View {
                 LazyVStack {
                     ForEach(0..<20) { _ in
                         TweetRowView()
+                            .padding()
                     }
                 }
             }
@@ -35,7 +36,7 @@ struct FeedView: View {
             .clipShape(Circle())
             .padding()
             .fullScreenCover(isPresented: $showNewTweetView) {
-                Text("New tweet view")
+                NewTweetView()
             }
         }
     }

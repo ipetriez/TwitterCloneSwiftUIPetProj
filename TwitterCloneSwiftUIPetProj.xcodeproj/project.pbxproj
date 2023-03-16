@@ -12,6 +12,8 @@
 		7073157429A3E62E007048AC /* SideMenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7073157329A3E62E007048AC /* SideMenuItemView.swift */; };
 		7073157629A3E661007048AC /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7073157529A3E661007048AC /* SideMenuViewModel.swift */; };
 		7073157829A3ED00007048AC /* UserStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7073157729A3ED00007048AC /* UserStatsView.swift */; };
+		7096BB0629C37B3C00A7CEB8 /* NewTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7096BB0529C37B3C00A7CEB8 /* NewTweetView.swift */; };
+		7096BB0829C37C9D00A7CEB8 /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7096BB0729C37C9D00A7CEB8 /* TextArea.swift */; };
 		70A2A67C299D29CD0009D6B1 /* TwitterCloneSwiftUIPetProjApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A2A67B299D29CD0009D6B1 /* TwitterCloneSwiftUIPetProjApp.swift */; };
 		70A2A680299D29D20009D6B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A2A67F299D29D20009D6B1 /* Assets.xcassets */; };
 		70A2A683299D29D20009D6B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A2A682299D29D20009D6B1 /* Preview Assets.xcassets */; };
@@ -32,6 +34,8 @@
 		7073157329A3E62E007048AC /* SideMenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuItemView.swift; sourceTree = "<group>"; };
 		7073157529A3E661007048AC /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
 		7073157729A3ED00007048AC /* UserStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatsView.swift; sourceTree = "<group>"; };
+		7096BB0529C37B3C00A7CEB8 /* NewTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTweetView.swift; sourceTree = "<group>"; };
+		7096BB0729C37C9D00A7CEB8 /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
 		70A2A678299D29CD0009D6B1 /* TwitterCloneSwiftUIPetProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterCloneSwiftUIPetProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A2A67B299D29CD0009D6B1 /* TwitterCloneSwiftUIPetProjApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCloneSwiftUIPetProjApp.swift; sourceTree = "<group>"; };
 		70A2A67F299D29D20009D6B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,6 +81,15 @@
 			path = "Side Menu";
 			sourceTree = "<group>";
 		};
+		7096BB0429C37B0600A7CEB8 /* New Tweet */ = {
+			isa = PBXGroup;
+			children = (
+				7096BB0529C37B3C00A7CEB8 /* NewTweetView.swift */,
+				7096BB0729C37C9D00A7CEB8 /* TextArea.swift */,
+			);
+			path = "New Tweet";
+			sourceTree = "<group>";
+		};
 		70A2A66F299D29CC0009D6B1 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +109,7 @@
 		70A2A67A299D29CD0009D6B1 /* TwitterCloneSwiftUIPetProj */ = {
 			isa = PBXGroup;
 			children = (
+				7096BB0429C37B0600A7CEB8 /* New Tweet */,
 				70A2A68C299D2A440009D6B1 /* App */,
 				70A2A696299D33EB0009D6B1 /* Profile */,
 				7073157029A3E5EA007048AC /* Side Menu */,
@@ -267,7 +281,9 @@
 				70B889A929A3FD20000BB70C /* MainContainerView.swift in Sources */,
 				7073157829A3ED00007048AC /* UserStatsView.swift in Sources */,
 				70A2A69C299D34400009D6B1 /* MessagesView.swift in Sources */,
+				7096BB0829C37C9D00A7CEB8 /* TextArea.swift in Sources */,
 				7073157629A3E661007048AC /* SideMenuViewModel.swift in Sources */,
+				7096BB0629C37B3C00A7CEB8 /* NewTweetView.swift in Sources */,
 				7003555729A121590013BB9E /* UserItemView.swift in Sources */,
 				70E081DB299EAA2E0011E527 /* TweetFilterViewModel.swift in Sources */,
 				70A2A698299D34190009D6B1 /* ExploreView.swift in Sources */,
