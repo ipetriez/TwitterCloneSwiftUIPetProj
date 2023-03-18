@@ -27,6 +27,7 @@
 		70DAAEDF29C5A65C00F4F1CD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAEDE29C5A65B00F4F1CD /* LoginView.swift */; };
 		70DAAEE129C5A66A00F4F1CD /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAEE029C5A66A00F4F1CD /* RegistrationView.swift */; };
 		70DAAEE329C5A82200F4F1CD /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAEE229C5A82200F4F1CD /* RoundedShape.swift */; };
+		70DAAEE529C60FE100F4F1CD /* CustomInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAEE429C60FE100F4F1CD /* CustomInputField.swift */; };
 		70E081D9299E98220011E527 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E081D8299E98220011E527 /* ProfileView.swift */; };
 		70E081DB299EAA2E0011E527 /* TweetFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E081DA299EAA2E0011E527 /* TweetFilterViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		70DAAEDE29C5A65B00F4F1CD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		70DAAEE029C5A66A00F4F1CD /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		70DAAEE229C5A82200F4F1CD /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
+		70DAAEE429C60FE100F4F1CD /* CustomInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputField.swift; sourceTree = "<group>"; };
 		70E081D8299E98220011E527 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		70E081DA299EAA2E0011E527 /* TweetFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetFilterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -212,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				70DAAEDE29C5A65B00F4F1CD /* LoginView.swift */,
+				70DAAEE429C60FE100F4F1CD /* CustomInputField.swift */,
 				70DAAEE229C5A82200F4F1CD /* RoundedShape.swift */,
 				70DAAEE029C5A66A00F4F1CD /* RegistrationView.swift */,
 			);
@@ -292,6 +295,7 @@
 				7073157429A3E62E007048AC /* SideMenuItemView.swift in Sources */,
 				70A2A690299D2BE70009D6B1 /* TweetRowView.swift in Sources */,
 				70A2A68A299D2A290009D6B1 /* FeedView.swift in Sources */,
+				70DAAEE529C60FE100F4F1CD /* CustomInputField.swift in Sources */,
 				70A2A67C299D29CD0009D6B1 /* TwitterCloneSwiftUIPetProjApp.swift in Sources */,
 				7073157229A3E614007048AC /* SideMenuView.swift in Sources */,
 				70A2A692299D31AB0009D6B1 /* MainTabView.swift in Sources */,
