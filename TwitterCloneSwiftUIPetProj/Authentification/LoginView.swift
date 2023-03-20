@@ -38,18 +38,9 @@ struct LoginView: View {
                 }
             }
             
-            Button {
-                print("Sign in")
-            } label: {
-                Text("Sign in")
-                    .font(.headline)
-                    .foregroundColor(.white)
-                    .frame(width: 340, height: 50)
-                    .background(Color(.systemBlue))
-                    .clipShape(Capsule())
-                    .padding()
+            CapsuleShapedButton(title: "Sign in") {
+                print("Signing in")
             }
-            .shadow(color: .gray.opacity(0.5), radius: 10, x: 0, y: 0)
             
             Spacer()
             
