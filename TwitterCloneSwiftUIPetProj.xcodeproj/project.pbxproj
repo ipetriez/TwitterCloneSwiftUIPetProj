@@ -97,17 +97,37 @@
 			isa = PBXGroup;
 			children = (
 				7073157129A3E614007048AC /* SideMenuView.swift */,
-				7073157329A3E62E007048AC /* SideMenuItemView.swift */,
 				7073157529A3E661007048AC /* SideMenuViewModel.swift */,
+				7094642829CA085300370ED5 /* Subviews */,
 			);
 			path = "Side Menu";
+			sourceTree = "<group>";
+		};
+		7094642729CA07BE00370ED5 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				70DAAEE629C6128C00F4F1CD /* AuthHeaderView.swift */,
+				70DAAEE829C6F61300F4F1CD /* CapsuleShapedButton.swift */,
+				70DAAEE429C60FE100F4F1CD /* CustomInputField.swift */,
+				70DAAEE229C5A82200F4F1CD /* RoundedShape.swift */,
+				7096BB0729C37C9D00A7CEB8 /* TextArea.swift */,
+				7073157729A3ED00007048AC /* UserStatsView.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		7094642829CA085300370ED5 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				7073157329A3E62E007048AC /* SideMenuItemView.swift */,
+			);
+			path = Subviews;
 			sourceTree = "<group>";
 		};
 		7096BB0429C37B0600A7CEB8 /* New Tweet */ = {
 			isa = PBXGroup;
 			children = (
 				7096BB0529C37B3C00A7CEB8 /* NewTweetView.swift */,
-				7096BB0729C37C9D00A7CEB8 /* TextArea.swift */,
 			);
 			path = "New Tweet";
 			sourceTree = "<group>";
@@ -131,6 +151,7 @@
 		70A2A67A299D29CD0009D6B1 /* TwitterCloneSwiftUIPetProj */ = {
 			isa = PBXGroup;
 			children = (
+				7094642729CA07BE00370ED5 /* UIComponents */,
 				70A2A68C299D2A440009D6B1 /* App */,
 				70DAAEDD29C5A61000F4F1CD /* Authentification */,
 				7096BB0429C37B0600A7CEB8 /* New Tweet */,
@@ -219,7 +240,6 @@
 			isa = PBXGroup;
 			children = (
 				70E081D8299E98220011E527 /* ProfileView.swift */,
-				7073157729A3ED00007048AC /* UserStatsView.swift */,
 				70E081DA299EAA2E0011E527 /* TweetFilterViewModel.swift */,
 			);
 			path = Profile;
@@ -229,11 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				70DAAEDE29C5A65B00F4F1CD /* LoginView.swift */,
-				70DAAEE829C6F61300F4F1CD /* CapsuleShapedButton.swift */,
-				70DAAEE429C60FE100F4F1CD /* CustomInputField.swift */,
-				70DAAEE229C5A82200F4F1CD /* RoundedShape.swift */,
 				70DAAEE029C5A66A00F4F1CD /* RegistrationView.swift */,
-				70DAAEE629C6128C00F4F1CD /* AuthHeaderView.swift */,
 			);
 			path = Authentification;
 			sourceTree = "<group>";
