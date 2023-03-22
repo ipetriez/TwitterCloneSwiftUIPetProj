@@ -11,6 +11,8 @@ import Firebase
 @main
 struct TwitterCloneSwiftUIPetProjApp: App {
     
+    @StateObject var authViewModel = AuthViewModel()
+    
     init() {
         FirebaseApp.configure()
     }
@@ -20,6 +22,7 @@ struct TwitterCloneSwiftUIPetProjApp: App {
             NavigationStack {
                 MainContainerView()
             }
+            .environmentObject(authViewModel)
         }
     }
 }

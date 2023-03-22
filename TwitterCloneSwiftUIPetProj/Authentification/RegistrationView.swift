@@ -14,6 +14,7 @@ struct RegistrationView: View {
     @State private var fullName = ""
     @State private var password = ""
     @Environment(\.presentationMode) var presentationMode
+    @EnvironmentObject var authViewModel: AuthViewModel
     
     var body: some View {
         VStack {
@@ -31,7 +32,7 @@ struct RegistrationView: View {
             .padding(32)
             
             CapsuleShapedButton(title: "Sign up") {
-                print("Signing up")
+                authViewModel.register(withEmail: email, password: password, fullName: fullName, userName: username)
             }
             
             Spacer()

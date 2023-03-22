@@ -11,6 +11,7 @@ struct LoginView: View {
     
     @State private var email = ""
     @State private var password = ""
+    @EnvironmentObject var authViewModel: AuthViewModel
     
     var body: some View {
         VStack {
@@ -39,7 +40,7 @@ struct LoginView: View {
             }
             
             CapsuleShapedButton(title: "Sign in") {
-                print("Signing in")
+                authViewModel.login(withEmail: email, password: password)
             }
             
             Spacer()
