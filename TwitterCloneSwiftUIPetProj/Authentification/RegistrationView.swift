@@ -21,18 +21,18 @@ struct RegistrationView: View {
             AuthHeaderView(title1: "Get started.", title2: "Create your account.")
             
             VStack(spacing: 40) {
-                CustomInputField(imageName: "envelope", placeholderText: "Email", text: $email)
+                CustomInputField(imageName: "envelope", placeholderText: "Email", isSecureField: false, text: $email)
                 
-                CustomInputField(imageName: "person", placeholderText: "User name", text: $username)
+                CustomInputField(imageName: "person", placeholderText: "User name", isSecureField: false, text: $username)
                 
-                CustomInputField(imageName: "person", placeholderText: "Full name", text: $fullName)
+                CustomInputField(imageName: "person", placeholderText: "Full name", isSecureField: false, text: $fullName)
                 
-                CustomInputField(imageName: "lock", placeholderText: "Password", text: $password)
+                CustomInputField(imageName: "lock", placeholderText: "Password", isSecureField: true, text: $password)
             }
             .padding(32)
             
             CapsuleShapedButton(title: "Sign up") {
-                authViewModel.register(withEmail: email, password: password, fullName: fullName, userName: username)
+                authViewModel.register(withEmail: email, password: password, fullName: fullName, userName: username, completion: { presentationMode.wrappedValue.dismiss() })
             }
             
             Spacer()

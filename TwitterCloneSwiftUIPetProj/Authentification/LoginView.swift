@@ -18,8 +18,8 @@ struct LoginView: View {
             AuthHeaderView(title1: "Hello!", title2: "Welcome back.")
             
             VStack(spacing: 40) {
-                CustomInputField(imageName: "envelope", placeholderText: "Email", text: $email)
-                CustomInputField(imageName: "lock", placeholderText: "Password", text: $password)
+                CustomInputField(imageName: "envelope", placeholderText: "Email", isSecureField: false, text: $email)
+                CustomInputField(imageName: "lock", placeholderText: "Password", isSecureField: true, text: $password)
             }
             .padding(.horizontal, 32)
             .padding(.top, 44)
